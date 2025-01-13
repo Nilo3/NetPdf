@@ -1,11 +1,11 @@
 ﻿using iText.Kernel.Pdf;
 using Xunit;
 
-public class PdfTextExtractorServiceTests
+public class PdfTextExtractorServiceTestsV2
 {
     private readonly PdfTextExtractorService _pdfTextExtractorService;
 
-    public PdfTextExtractorServiceTests()
+    public PdfTextExtractorServiceTestsV2()
     {
         _pdfTextExtractorService = new PdfTextExtractorService();
     }
