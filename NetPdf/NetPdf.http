@@ -1,0 +1,6 @@
+@NetPdf_HostAddress = http://localhost:5171
+
+GET {{NetPdf_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
