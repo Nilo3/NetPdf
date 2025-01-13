@@ -5,9 +5,9 @@
 public class PdfController : ControllerBase
 {
     private readonly PdfTextExtractorService _pdfTextExtractorService;
-    private readonly FileValidationService _fileValidationService;
+    private readonly FileValidation _fileValidationService;
 
-    public PdfController(PdfTextExtractorService pdfTextExtractorService, FileValidationService fileValidationService)
+    public PdfController(PdfTextExtractorService pdfTextExtractorService, FileValidation fileValidationService)
     {
         _pdfTextExtractorService = pdfTextExtractorService;
         _fileValidationService = fileValidationService;

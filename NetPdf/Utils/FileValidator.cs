@@ -1,4 +1,4 @@
-﻿public class FileValidationService
+﻿public class FileValidation
 {
     private readonly string[] validExtensions = { ".pdf" };
 
